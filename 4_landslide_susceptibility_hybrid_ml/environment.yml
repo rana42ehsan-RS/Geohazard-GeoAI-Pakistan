@@ -1,0 +1,36 @@
+name: geohazard
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - xgboost
+  - geopandas
+  - rasterio
+  - shapely
+  - pyproj
+  - matplotlib
+  - seaborn
+  - folium
+  - branca
+  - joblib
+  - tqdm
+  - requests
+  - esda
+  - libpysal
+  - pysheds
+  - python-docx
+  - streamlit
+  - ipykernel
+  - pip
+  - pip:
+      - earthengine-api
+      - geemap
+      - geedim
+      - pymannkendall
+      - streamlit-folium
+      - torch --index-url https://download.pytorch.org/whl/cpu
